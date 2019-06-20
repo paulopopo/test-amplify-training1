@@ -1,0 +1,23 @@
+{
+	"auth": {
+		"cognito5dad869e": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"api": {
+		"trainin1": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY"
+			}
+		}
+	},
+	"storage": {
+		"training1": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
